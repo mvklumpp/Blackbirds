@@ -5,7 +5,7 @@ This repository contains code associated with the following manuscript:
 ## Code
 
 
-NAME.R – Code to replicate the statistical analyses and plots 
+NAME.R – Code to replicate the statistical analyses and figures 
 
 ## Data
 
