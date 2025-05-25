@@ -369,6 +369,7 @@ moult_summary_juv <- moult_juv %>%
 
 # Plotting means and SEs together with raw values
 
+#Figure 2A
 (plot_BKA_means_juv <- ggplot(moult_summary_juv, aes(x = moult.score, y = mean_killingD)) +
   geom_jitter(data = moult_juv, aes(x = moult.score, y = killingD), 
               width = 0.1, height = 0, alpha = 0.5, color = "grey30", size = 3) +
@@ -383,7 +384,7 @@ moult_summary_juv <- moult_juv %>%
     axis.title = element_text(size = 25), 
     axis.text = element_text(size = 25)))
 
-
+#Figure 2B
 (plot_lysis_means_juv <- ggplot(moult_summary_juv, aes(x = moult.score, y = mean_lysis)) +
   geom_jitter(data = moult_juv, aes(x = moult.score, y = lysis_score), 
               width = 0.1, height = 0, alpha = 0.5, color = "grey30", size = 3) +
@@ -396,7 +397,7 @@ moult_summary_juv <- moult_juv %>%
         axis.title = element_text(size = 25), 
         axis.text = element_text(size = 25)))
 
-
+#Figure 2C
 (plot_agglut_means_juv <- ggplot(moult_summary_juv, aes(x = moult.score, y = mean_agglut)) +
   geom_jitter(data = moult_juv, aes(x = moult.score, y = aglutt_score), 
               width = 0.1, height = 0, alpha = 0.5, color = "grey30", size = 3) +
@@ -410,7 +411,7 @@ moult_summary_juv <- moult_juv %>%
         axis.text = element_text(size = 25),
         axis.title.y = element_text(margin = margin(r = 36))))
 
-
+#Figure 2D
 (plot_Hp_means_juv <- ggplot(moult_summary_juv, aes(x = moult.score, y = mean_Hp)) +
   geom_jitter(data = moult_juv, aes(x = moult.score, y = AC_hpconc_OLD), 
               width = 0.1, height = 0, alpha = 0.5, color = "grey30", size = 3) +
@@ -431,6 +432,7 @@ moult_summary_juv <- moult_juv %>%
 #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 #Figure S1 A-D ----
 
+#Figure S1A
 (plot_BKA <- ggplot(moult_ad, aes(x = moulting, y = killingD)) +
   geom_boxplot(width = 0.5, fill="lightgrey")+
   geom_jitter(width = 0.1, size = 2, colour="grey56") +
@@ -440,7 +442,7 @@ moult_summary_juv <- moult_juv %>%
         axis.title = element_text(size = 28), 
         axis.text = element_text(size = 28)))
 
-
+#Figure S1B
 (plot_lysis <- ggplot(moult_ad, aes(x = moulting, y = lysis_score)) +
   geom_boxplot(width = 0.5, fill="lightgrey")+
   geom_jitter(width = 0.1, size = 2, colour="grey56") +
@@ -451,7 +453,7 @@ moult_summary_juv <- moult_juv %>%
         axis.title = element_text(size = 28), 
         axis.text = element_text(size = 28)))
 
-
+#Figure S1C
 (plot_agglut <- ggplot(moult_ad, aes(x = moulting, y = aglutt_score)) +
   geom_boxplot(width = 0.5, fill="lightgrey")+
   geom_jitter(width = 0.1, size = 2, colour="grey56") +
@@ -462,7 +464,7 @@ moult_summary_juv <- moult_juv %>%
         axis.text = element_text(size = 28),
         axis.title.y = element_text(margin = margin(r = 40))))
 
-
+#Figure S1D
 (plot_Hp <- ggplot(moult_ad, aes(x = moulting, y = AC_hpconc_OLD)) +
   geom_boxplot(width = 0.5, fill="lightgrey")+
   geom_jitter(width = 0.1, size = 2, colour="grey56") +
