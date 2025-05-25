@@ -1,6 +1,6 @@
 # Blackbirds
 
-This repository contains code associated with the following manuscript: Immune function varies during adult primary moult but not juvenile body moult in a European passerine (submitted, May 2025)
+This repository contains code associated with the following manuscript: Immune function varies during adult primary moult but not juvenile body moult in a European passerine (Klumpp & Hegemann, submitted, May 2025)
 
 ## Code
 
