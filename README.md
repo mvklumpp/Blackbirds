@@ -12,4 +12,4 @@ Moult_Analyses&Figures.R – Code to replicate the statistical analyses and figu
 
 ## Data
 
-The data of this study will be made publicly available in the Dryad Digital Repository upon acceptance of the manuscript.
+The data of this study is publicly available in the Dryad Digital Repository: https://doi.org/10.5061/dryad.612jm64kb
