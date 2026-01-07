@@ -8,7 +8,7 @@ Moult_IF_Stats_Figures.R - Code from first submission (outdated)
 
 Moult_IF_Stats_Figures_revision.R – Code from first resubmission (outdated)
 
-Moult_IF_Stats_Figures_2ndrevision.R – Code to replicate the statistical analyses and figures (updated in November 2025)
+Moult_Analyses&Figures.R – Code to replicate the statistical analyses and figures (updated in November 2025)
 
 ## Data
 
