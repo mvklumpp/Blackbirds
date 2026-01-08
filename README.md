@@ -1,6 +1,6 @@
 # Blackbirds
 
-This repository contains code associated with the following manuscript: Stable immune function during moult regardless of age-specific moulting strategy in a European passerine (Klumpp & Hegemann, resubmitted, November 2025)
+This repository contains code associated with the following manuscript: Klumpp, M. V. & Hegemann, A. 2026. Stable immune function during moult regardless of age-specific moulting strategy in a European passerine. – J. Avian Biol. 2026:03531.
 
 ## Code
 
