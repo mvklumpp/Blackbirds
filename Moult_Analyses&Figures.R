@@ -4,12 +4,12 @@
 
 #Malin V. Klumpp & Arne Hegemann
 
-#Script by M. V. Klumpp, November 2025
+#Script by M. V. Klumpp, January 2026
 #This script provides all code necessary to reproduce the statistical analyses and figures in the manuscript and supporting information
 
 #*********************************************************************************
 rm(list = ls())
-setwd() #set working directory
+setwd("/Users/User/Desktop/Moult_BB_revision_Nov25/Dryad:GitHub/Publication") #set working directory
 #*********************************************************************************
 #Packages ----
 #*********************************************************************************
@@ -114,8 +114,6 @@ moult_ad <- moult_data %>% #includes the single individual with completed moult 
   filter(age == "ad") %>%
   filter(!is.na(moult_score)) #remove NAs
 
-table(moult_ad$moult_score) #check sample size
-
 #set data structure as numeric (nm)
 moult_ad$moult_score <- as.numeric(moult_ad$moult_score) 
 
@@ -126,7 +124,7 @@ moult_ad$moult_score <- as.numeric(moult_ad$moult_score)
 
 #data transformation following Smithson & Verkuilen, 2006:
 n=37 #sample size
-moult_ad$BKA_prop_adjusted <- (moult_ad$killingD * (n - 1) + 0.5) / n
+moult_ad$BKA_prop_adjusted <- (moult_ad$BKA_prop * (n - 1) + 0.5) / n
 
 #model
 betareg_BKA_nm <- betareg(BKA_prop_adjusted ~ moult_score + sex + julian_date, data = moult_ad, link = "logit")
