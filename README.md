@@ -4,7 +4,7 @@ This repository contains code associated with the following manuscript: Stable i
 
 ## Code
 
-Moult_Analyses&Figures.R – Code to replicate the statistical analyses and figures (updated in November 2025)
+Moult_Analyses&Figures.R – Code to replicate the statistical analyses and figures.
 
 ## Data
 
