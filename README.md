@@ -5,7 +5,8 @@ This repository contains code associated with the following manuscript: Klumpp, 
 ## Code
 
 Moult_Analyses&Figures.R – Code to replicate the statistical analyses and figures.
+DOI: https://doi.org/10.5281/zenodo.18186749
 
 ## Data
 
-The data of this study is publicly available in the Dryad Digital Repository: https://doi.org/10.5061/dryad.612jm64kb
+The data of this study is publicly available in the Dryad Digital Repository: DOI: https://doi.org/10.5061/dryad.612jm64kb
